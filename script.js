@@ -41,5 +41,27 @@ console.log('Digite: 1 para sim ou Digite: 2 para não')
         }
 
 
-
 console.log(cont)
+
+if (cont == 5){
+        console.log("Guerrei derrota o bruxo e é honrrada e coroada pelo povo, mantendo a paz e segurança do habitantes.")
+}
+
+else if(cont == 4){
+        console.log("Após derrotar o bruxo guerreira fica com um ferimento causado pelo bruxo e é atendida pelos medico do povo salvando sua vida")
+}
+else if(cont == 3){
+        console("Apos uma grande batalha guerreira é atingida por dois golpes, porém guerreira em sua vantagem de batalha deixa o bruxo caido e o povo ajuda a guerreira a prender o bruxo caido e vencem a batalha")
+}
+
+else if(cont == 2){
+        console.log("Apos a guerreira salvar o povo do bruxo que estava sugando suas energias vitais, a guerrei acaba sendo atigidas por 3 golpes e sendo obrigada fugir com seu povo devido aos golpes fatais.")
+}
+
+else if (cont == 1){
+        console.log("Guerreira consegue libertar o seu povo com um dos golpes atigidos no bruxo e o povo foge, porém a guerreira é derrota.")
+}
+
+else if (cont == ""){
+        console.log("Guerreira falha miseravélmente em seus ataques, com o poder que bruxo adiquiriu roubando a energia vital do povo, ele conquista uma nação causando destruição ao redor.")
+}
